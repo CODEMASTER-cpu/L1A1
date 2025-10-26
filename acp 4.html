@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h3>Easy Calculator</h3>
+    <input id="a">
+    <input id="b">
+    <button onclick="add()">+</button>
+    <button onclick="sub()">-</button>
+    <button onclick="mul()">*</button>
+    <button onclick="div()">/</button>
+    <p id="res"></p>
+
+    <script>
+        function add() { res.innerHTML = +a.value + +b.value }
+        function sub() { res.innerHTML = a.value - b.value }
+        function mul() { res.innerHTML = a.value * b.value }
+        function div() { res.innerHTML = a.value / b.value }
+    </script>
+</body>
+
+</html>
